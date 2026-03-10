@@ -1,47 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — Malayalam Catholic Bible Quiz</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #fafafa;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Malayalam Catholic Bible Quiz</title>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #ffffff;
+      --text: #1e2630;
+      --muted: #5f6b7a;
+      --border: #dde3ea;
+      --accent: #b8212f;
+    }
 
-        h1 {
-            color: #2c3e50;
-        }
+    * {
+      box-sizing: border-box;
+    }
 
-        p {
-            line-height: 1.6;
-        }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.65;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      line-height: 1.3;
+    }
+
+    h2 {
+      margin: 28px 0 8px;
+      font-size: 1.2rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      margin: 8px 0 8px 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 0.97rem;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f8fafc;
+      font-weight: 600;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    a {
+      color: #0b57d0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Privacy Policy — Malayalam Catholic Bible Quiz</h1>
-        <p><strong>Last updated:</strong> March 7, 2026</p>
-        <p>Malayalam Catholic Bible Quiz (“the App”) respects your privacy. This App does <strong>not collect, store, or
-                share</strong> any personal or non-personal user data.</p>
-        <p>We do not track users, display ads, or request permissions beyond what is required for normal app use.</p>
-        <p>If you have any questions about this Privacy Policy, please contact us at:<br>
-            📧 <strong>jjmtdev@gmail.com</strong></p>
-    </div>
-</body>
+  <main class="wrap">
+    <article class="card">
+      <h1>Privacy Policy - Malayalam Catholic Bible Quiz</h1>
+      <p class="meta"><strong>Last updated:</strong> March 10, 2026</p>
 
+      <p>
+        This Privacy Policy explains how <strong>Malayalam Catholic Bible Quiz</strong> ("the App")
+        accesses, uses, stores, and shares user data when you use the App.
+      </p>
+      <p>
+        This policy applies to the Android app published as
+        <strong>Malayalam Catholic Bible Quiz</strong> on Google Play.
+      </p>
+
+      <h2>1. Data We Access, Collect, and Store</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Data type</th>
+            <th>Purpose</th>
+            <th>Where stored</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Quiz activity data (for example, quiz attempts, scores, answer details)</td>
+            <td>To show quiz results and support progress/history features</td>
+            <td>On your device; and in cloud storage when sync is enabled</td>
+          </tr>
+          <tr>
+            <td>App settings (for example, timer and notification preferences)</td>
+            <td>To remember your preferences</td>
+            <td>On your device</td>
+          </tr>
+          <tr>
+            <td>Anonymous account identifier (Firebase anonymous UID, if configured)</td>
+            <td>To associate synced data with your app session</td>
+            <td>Firebase Authentication / Firestore</td>
+          </tr>
+          <tr>
+            <td>Push token (if notifications are enabled and permission granted)</td>
+            <td>To send app notifications</td>
+            <td>Firestore</td>
+          </tr>
+          <tr>
+            <td>Basic technical diagnostics (for example, request failures or sync errors)</td>
+            <td>To maintain app reliability and troubleshoot issues</td>
+            <td>Device logs and/or backend logs</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>2. Data We Do Not Collect</h2>
+      <p>We do not intentionally collect highly sensitive personal data such as:</p>
+      <ul>
+        <li>Contacts, call logs, SMS, photos, microphone audio, or precise location</li>
+        <li>Government IDs, financial account details, or payment card data</li>
+      </ul>
+
+      <h2>3. How We Use Data</h2>
+      <ul>
+        <li>To provide quiz functionality and store your quiz progress</li>
+        <li>To sync data between app sessions (when cloud features are active)</li>
+        <li>To deliver notifications only when you enable them</li>
+        <li>To improve stability, performance, and security of the App</li>
+      </ul>
+
+      <h2>4. Data Sharing and Third Parties</h2>
+      <p>
+        We do <strong>not sell</strong> your personal data. Data may be processed by service providers
+        used to operate the App:
+      </p>
+      <ul>
+        <li>
+          <strong>Google Firebase</strong> (Authentication, Firestore, Cloud Functions, Storage)
+          for account/session handling and optional cloud sync.
+        </li>
+        <li>
+          <strong>Expo notification services</strong> for push token handling and notification delivery.
+        </li>
+      </ul>
+      <p class="small">
+        Third-party processing is subject to those providers' terms and privacy policies.
+      </p>
+
+      <h2>5. Permissions</h2>
+      <p>
+        The App may request notification permission (for daily reminders and push notifications).
+        You can disable notifications in app settings or device settings at any time.
+      </p>
+
+      <h2>6. Security</h2>
+      <p>
+        We use reasonable technical and organizational measures designed to protect data from
+        unauthorized access, alteration, disclosure, or destruction. No system is 100% secure,
+        but we continuously work to protect user data.
+      </p>
+
+      <h2>7. Data Retention</h2>
+      <ul>
+        <li>Local device data remains until you clear app data or uninstall the App.</li>
+        <li>Cloud-synced records are retained while needed to provide app functionality.</li>
+        <li>
+          We may retain limited records as required for security, fraud prevention, legal compliance,
+          or dispute resolution.
+        </li>
+      </ul>
+
+      <h2>8. Data Deletion Requests</h2>
+      <p>
+        You can request deletion of cloud-stored data by contacting us at the email below.
+        Include details that help us locate your records (for example, app/account context and device details).
+      </p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>
+        The App is not directed to children under the age defined by applicable local law. If you believe
+        a child submitted personal data, contact us and we will take appropriate steps.
+      </p>
+
+      <h2>10. International Processing</h2>
+      <p>
+        Depending on your location and the service providers used, data may be processed in countries
+        other than your own.
+      </p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Material updates will be reflected by revising
+        the "Last updated" date above.
+      </p>
+
+      <h2>12. Contact</h2>
+      <p>
+        If you have questions, concerns, or deletion requests, contact:
+        <br />
+        <strong>Email:</strong> <a href="mailto:jjmtdev@gmail.com">jjmtdev@gmail.com</a>
+      </p>
+    </article>
+  </main>
+</body>
 </html>
